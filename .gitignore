@@ -1,2 +1,6 @@
 node_modules/
 dist/
+downloads/
+.env
+client/dist/
+client/node_modules/

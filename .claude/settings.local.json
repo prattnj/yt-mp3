@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm create:*)",
+      "Bash(where yt-dlp:*)",
+      "Bash(yt-dlp --version)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(mkdir -p server)",
+      "Bash(mv index.ts server/index.ts)",
+      "Bash(cp -r client/src/* src/)",
+      "Bash(mkdir -p src)",
+      "Bash(cp client/src/App.tsx src/)",
+      "Bash(ls c:/Users/pratt/Documents/yt-mp3/tsconfig*.json)",
+      "Bash(ls c:/Users/pratt/Documents/yt-mp3/eslint*)",
+      "Bash(mkdir -p client/src)",
+      "Bash(mv src/App.tsx client/src/)",
+      "Bash(mv src/main.tsx client/src/)",
+      "Bash(mv src/index.css client/src/)",
+      "Bash(rmdir src:*)",
+      "Bash(timeout 5 npx ts-node index.ts)",
+      "Bash(timeout 5 npx vite)",
+      "Bash(yt-dlp -U)"
+    ]
+  }
+}
