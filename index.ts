@@ -9,7 +9,7 @@ import fs from "fs";
 dotenv.config();
 
 const app: Express = express();
-const port = process.env.PORT || 3006;
+const port = 3000;
 
 app.use(cors());
 app.use(express.json());

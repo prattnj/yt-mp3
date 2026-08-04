@@ -1,0 +1,7 @@
+services:
+  yt-mp3:
+    build: .
+    container_name: yt-mp3
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${PORT_CONVERT:?Port environment variable must be set}:3000"
